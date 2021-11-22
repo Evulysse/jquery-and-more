@@ -53,7 +53,7 @@ const labels = [
       'Blue',
       'Yellow'
     ],
-    datasets2: [{
+    datasets: [{
       label: 'My First Dataset',
       data: [300, 50, 100],
       backgroundColor: [
@@ -66,7 +66,7 @@ const labels = [
   };
   const config2 = {
     type: 'doughnut',
-    data: data,
+    data: data2,
   };
   const myChart2 = new Chart(
     document.querySelector("#pie"),
